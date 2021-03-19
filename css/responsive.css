@@ -1,0 +1,203 @@
+/*// Extra small devices (portrait phones, less than 576px)*/
+@media(max-width: 575.98px) {
+
+    #banner_part {
+
+        padding-top: 155px;
+        height: 95vh;
+    }
+
+    .banner_text a {
+        padding: 14px 50px;
+        -
+    }
+
+    .service_1,
+    .service_2 {
+        margin-bottom: 55px;
+    }
+
+    #service_part,
+    #team_part,
+    #skill_part,
+    #portfolio_part,
+    #testimonial_part,
+    #contact_part {
+        padding: 60px 0;
+    }
+
+    .team_info p {
+        padding: 0 13px;
+    }
+
+    .section_title p {
+        margin-bottom: 60px;
+    }
+
+    .radial-progress.graphics_design,
+    .radial-progress.ui_ux {
+        margin-top: 50px;
+    }
+
+    .load_more_project a {
+        padding: 14px 40px;
+    }
+
+    .testimonial_1,
+    .testimonial_2,
+    .testimonial_3 {
+        margin-bottom: 80px;
+    }
+
+    .contact_form .name_input {
+        padding-right: 5px;
+    }
+
+    .contact_form .email_input {
+        padding-left: 5px;
+    }
+
+    .contact_submit_button {
+        padding: 14px 50px;
+    }
+
+    .navbar .container {
+        padding: 0 16px;
+    }
+    .mobile_menu .openNav{
+        display:block;;
+    }
+}
+
+
+
+
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media(min-width: 576px) and (max-width: 767.98px) {
+
+    #banner_part {
+
+        padding-top: 155px;
+        height: 95vh;
+    }
+
+    .banner_text a {
+        padding: 14px 50px;
+        -
+    }
+
+    .service_1,
+    .service_2 {
+        margin-bottom: 55px;
+    }
+
+    #service_part,
+    #team_part,
+    #skill_part,
+    #portfolio_part,
+    #testimonial_part,
+    #contact_part {
+        padding: 60px 0;
+    }
+
+    .team_info p {
+        padding: 0 13px;
+    }
+
+    .section_title p {
+        margin-bottom: 60px;
+    }
+
+    .radial-progress.graphics_design,
+    .radial-progress.ui_ux {
+        margin-top: 50px;
+    }
+
+    .load_more_project a {
+        padding: 14px 40px;
+    }
+
+    .testimonial_1,
+    .testimonial_2,
+    .testimonial_3 {
+        margin-bottom: 80px;
+    }
+
+    .contact_form .name_input {
+        padding-right: 5px;
+    }
+
+    .contact_form .email_input {
+        padding-left: 5px;
+    }
+
+    .contact_submit_button {
+        padding: 14px 50px;
+    }
+    .mobile_menu .openNav{
+        display:block;;
+    }
+
+}
+
+
+
+
+
+/*// Medium devices (tablets, 768px and up)*/
+@media(min-width: 768px) and (max-width: 991.98px) {
+
+    #banner_part {
+        padding-top: 200px;
+    }
+
+    .service_1,
+    .service_2 {
+        margin-bottom: 55px;
+    }
+
+    .team_info p {
+        padding: 0 9px;
+    }
+
+    .radial-progress.graphics_design,
+    .radial-progress.ui_ux {
+        margin-top: 50px;
+    }
+    .mobile_menu .openNav{
+        display:block;;
+    }
+}
+
+
+
+
+
+/*// Large devices (desktops, 992px and up)*/
+@media(min-width: 992px) and (max-width: 1199.98px) {
+
+    .service_info p {
+        padding: 0px 10px;
+    }
+
+    .team_info p {
+        padding: 0 9px;
+    }
+    .mobile_menu .overlay{
+        display:none !important;
+    }
+
+}
+
+
+
+
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media(min-width: 1200px) {
+    
+    .mobile_menu .overlay{
+        display:none !important;
+    }
+}
