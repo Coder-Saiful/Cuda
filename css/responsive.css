@@ -9,12 +9,16 @@
 
     .banner_text a {
         padding: 14px 50px;
-        -
     }
 
     .service_1,
-    .service_2 {
-        margin-bottom: 55px;
+    .service_2,
+    .service_3 {
+        margin-bottom: 60px;
+    }
+
+    .service_info img {
+        padding-bottom: 40px;
     }
 
     #service_part,
@@ -26,6 +30,10 @@
         padding: 60px 0;
     }
 
+    .team_info img {
+        margin: 0 auto 40px auto;
+    }
+
     .team_info p {
         padding: 0 13px;
     }
@@ -34,6 +42,7 @@
         margin-bottom: 60px;
     }
 
+    .radial-progress.html_css,
     .radial-progress.graphics_design,
     .radial-progress.ui_ux {
         margin-top: 50px;
@@ -64,8 +73,10 @@
     .navbar .container {
         padding: 0 16px;
     }
-    .mobile_menu .openNav{
-        display:block;;
+
+    .mobile_menu .openNav {
+        display: block;
+        ;
     }
 }
 
@@ -84,7 +95,6 @@
 
     .banner_text a {
         padding: 14px 50px;
-        -
     }
 
     .service_1,
@@ -135,8 +145,9 @@
     .contact_submit_button {
         padding: 14px 50px;
     }
-    .mobile_menu .openNav{
-        display:block;;
+
+    .mobile_menu .openNav {
+        display: block;
     }
 
 }
@@ -165,8 +176,9 @@
     .radial-progress.ui_ux {
         margin-top: 50px;
     }
-    .mobile_menu .openNav{
-        display:block;;
+
+    .mobile_menu .openNav {
+        display: block;
     }
 }
 
@@ -184,8 +196,9 @@
     .team_info p {
         padding: 0 9px;
     }
-    .mobile_menu .overlay{
-        display:none !important;
+
+    .mobile_menu .overlay {
+        display: none !important;
     }
 
 }
@@ -196,8 +209,8 @@
 
 /*// Extra large devices (large desktops, 1200px and up)*/
 @media(min-width: 1200px) {
-    
-    .mobile_menu .overlay{
-        display:none !important;
+
+    .mobile_menu .overlay {
+        display: none !important;
     }
 }
